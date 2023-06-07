@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: xx;
+}
+.infotab{
+    display: none;
+}
+html{
+    font-size:62,5%
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+header{
+    background: rgb(0, 144, 227);
+    width: 100%;
+    position: relative;
+    gap: 5rem;
+    padding: 4.5rem;
+   flex-direction: row;
+   text-align: center;
+   overflow: hidden;
+   
+}
+
+li{
+    display: flex;
+}
+
+.pzlogo{
+color: white;
+text-align: center;
+background-color: #ff6600;
+border-radius: 50%;
+width: 15rem;
+height: 15rem;
+position: absolute;
+top: -1rem;
+overflow: hidden;
+line-height: 12rem;
+font-size: 3rem;
+}
+
+
+.zoeken input[type=text] {
+position: absolute;
+  padding: 1.2rem;
+  border: none;
+  margin-right: 4rem;
+  font-size: 1.7rem;
+  width: 75rem;
+  right: 40rem;
+  top: 3rem;
+  
+
+}
+
+.winkelwagen{
+position: absolute;
+left: 145rem;
+color: white;
+}
+
+.info{
+    left: 130rem;
+    color: white;
+    position: absolute;
+}
+
+.slider{
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.landing{
+    min-height:80vh;
+    width: 100%;
+  background-image: url("../img/banner.png");
+    background-position:center;
+    background-size:cover;
+    position: relative;
+ 
+     
+ }
+
+ .slogan{
+color: black;
+text-align: center;
+background-color:rgb(255, 255, 225,0.5);
+border-color: black;
+border-style: 0.1rem solid;
+border-radius: 3%;
+width: 40rem;
+height: 40rem;
+position: absolute;
+left: 26rem;
+bottom: 25rem;
+font-family: sans-serif;
+
+ }
+
+.slogan>h1{
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    font-size: 5rem;
+}
+
+.slogan>h2{
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+    
+}
+
+.knop{
+    position: absolute;
+    top: 24rem;
+    left: 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(232, 219, 219, 0.921);
+    border: 1px solid #ff6600;
+    padding: 1.2rem 3.4rem;
+    font-size: 1.8rem;
+    background: #ff6600;
+    position: relative;
+    cursor: pointer;
+
+
+}
+
+.knop:hover{
+    border: 0.5rem solid  rgb(0, 144, 227);
+    background-color:  #ff6200;
+    color: white;
+    transition: 1s;
+}
+
+footer{
+    color: white;
+    background-color:rgb(0, 144, 227) ;
+    align-items: center;
+    height: 10rem;
+}
+
+footer>p{
+    align-items: center;
+}
+
+.uitgelicht{
+    display: flex;
+    flex-direction: column;
+}
+
+.overons{
+display: flex;
+right: 20rem;
+top: 10rem;
+align-items: center;
+position: absolute;
+font-size: 2rem;
+flex-direction: column;
+color: white;
+text-align: center;
+background-color: #ff6600;
+border-radius: 50%;
+width: 33rem;
+height: 33rem ;
+padding: 4rem;
+}
+
+.waarom{
+    right: 55rem;
+    position: absolute;
+    font-size: 2rem;
+    bottom: 33rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white; 
+   background-color: #ff6600;
+   border-radius: 50%;
+   width: 29rem;
+   height: 29rem ;
+   padding: 4rem;
+
+}
+
+.contact{
+    right: 30rem;
+    position: absolute;
+    font-size: 2rem;
+    bottom: 12rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white; 
+   background-color: #ff6600;
+   border-radius: 50%;
+   width: 29rem;
+   height: 29rem ;
+   padding: 4rem;
+}
+
+.overonsfr{
+    min-height:100vh;
+    width: 100%;
+  background-image: url("../img/overons.jpg");
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    transform:  scaleX(-1);
+ 
+    
+}
